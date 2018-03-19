@@ -1,0 +1,293 @@
+﻿/* 弹窗 - 问题信息 */
+.recitify-title {
+}
+
+.recitify-title i {
+	padding-right: 8px;
+	padding-left: 15px;
+	font-size: 19px;
+	vertical-align: middle;
+}
+
+.recitify-state {
+	display: none;
+	float: right;
+	margin-right: 100px;
+}
+
+.recitify-state span {
+	padding-right: 20px;
+}
+
+.recitify-state .RecitifiOrCcDate {
+	color: #ff7246;
+	font-weight: bold;
+}
+
+.recitify-state .RecitifiOrCcState {
+	color: #5677fc;
+	font-weight: bold;
+}
+
+.ReOrInseped {
+	padding-top: 5px
+}
+
+.RecOrCcFile {
+	padding-top: 15px;
+}
+/* 附件 */
+.RecOrCcDocBlock, .DocBlock {
+	display: inline-flex;
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 80%;
+	height: 252px;
+	margin-left: 16px;
+	padding: 0px;
+}
+
+.RecOrCcDocBlock samp, .DocBlock samp {
+	display: none;
+}
+
+.RecOrCcDocBlock .file-footer-caption, .DocBlock .file-footer-caption {
+	margin-top: -5px;
+}
+
+.RecOrCcDocBlock .file-actions, .DocBlock .file-actions {
+	margin-top: 0px
+}
+
+.RecOrCcDocBlock .file-thumbnail-footer, .DocBlock .file-thumbnail-footer {
+	height: 50px !important;
+}
+
+.RecOrCcDocBlock .kv-preview-thumb, .DocBlock .kv-preview-thumb {
+	margin-right: 3px;
+}
+
+.RecOrCcDocBlock .kv-preview-thumb:first-child, .DocBlock .kv-preview-thumb:first-child {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.label-attachment {
+    height: 42px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.switch-attachment {
+	width: 50px;
+	position: relative;
+	top: 14px;
+	right: 27px;
+}
+
+.switch-attachment label {
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+.switch-attachment label:before {
+}
+
+#AttachmentCountDiv {
+	padding-left: 130px;
+	padding-top: 10px;
+}
+/* 逐个添加部门、人员 */
+.plus-department {
+	width: 42px;
+	height: 42px;
+	line-height: 0px;
+	vertical-align: middle;
+	padding: 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.minus-department {
+	font-size: 32px;
+	padding-bottom: 7px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.plused-department {
+	display: block;
+	width: 100%;
+	height: 35px;
+	padding: 6px 15px;
+	/*padding-top: 8px;*/
+	border: 1px solid #ddd;
+}
+/* input */
+i.input-required {
+	color: #f00;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	padding-right: 3px;
+}
+
+.input-area {
+	min-height: 42px !important;
+	padding: 6px 0px;
+}
+
+.input-date {
+	cursor: pointer;
+	width: 108px;
+}
+
+.input-file {
+	width: 108px !important;
+	margin-left: 15px !important;
+	border-radius: 5px !important;
+}
+
+.input-file span {
+	position: relative;
+	top: -1px;
+}
+
+.form-button {
+	padding-top: 20px;
+}
+
+.multiInput-first {
+	padding-left: 0px;
+}
+
+.col-sm-before {
+	padding-left: 0px;
+}
+
+.col-sm-next {
+	padding-right: 0px;
+}
+
+.form-group.button {
+	margin-top: 20px;
+	margin-bottom: -10px;
+	border-top: 1px solid #ddd;
+}
+
+.form-group.inputfile {
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.form-group.images {
+	margin-top: 0px;
+	display: none;
+}
+/* 滚动条 */
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+	height: 8px;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+
+.cursorsplit {
+	width: 1%;
+	height: 550px;
+	float: left;
+	margin-top: 40px;
+	border: 0px;
+	background: url(http://www.bimcheng.com:8199/assets/img/cursorsplit.png) no-repeat center;
+	cursor: w-resize;
+}
+
+.panelsBorder {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+#divUploadfile {
+	padding-top: 5px;
+}
+
+#divUploadfile li {
+	display: block;
+	padding: 5px 0px;
+}
+
+#divUploadfile li a {
+	padding-left: 5px;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.multicheckbox {
+}
+
+#multitypebox:active {
+	background-color: #ecedef;
+	border-color: #bac8ce;
+	color: #607d8b;
+}
+
+#multicheckbox:active {
+	background-color: #ecedef;
+	border-color: #bac8ce;
+	color: #607d8b;
+}
+
+.multicheckbox input[type='checkbox'] {
+	margin-top: 14px;
+}
+
+.multiselect {
+	width: 101px;
+	height: 45px;
+	padding: 0px;
+}
+
+.multiselect button {
+	padding: 0px 3px;
+}
+
+.multiselect button:hover, .multiselect button:active, .multiselect button:focus {
+	background-color: #ecedef;
+	border-color: #bac8ce;
+	color: #607d8b;
+}
+
+.multiselect .dropdown-menu > .active > a, .multiselect .dropdown-menu > .active > a:focus, .multiselect .dropdown-menu > .active > a:hover {
+	background-color: #ecedef;
+	color: #607d8b;
+}
+
+.search-statics {
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+	font-size: 14px;
+}
+
+.search-page {
+	float: right;
+}
